@@ -1,0 +1,6 @@
+total = int(input("Enter your total bill :"))
+total_persons = int(input("How many persons are you there?"))
+tips = int(input("How much tip you want to give?"))
+per_taka = (total/total_persons) + total * (tips/100) 
+round_taka = round(per_taka,2)
+print(f"Per person should pay {round_taka} taka")
